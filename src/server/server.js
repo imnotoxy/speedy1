@@ -227,7 +227,7 @@ function balanceMass() {
 
     var virusToAdd = c.maxVirus - virus.length;
 
-    if (virusToAdd > 20) {
+    if (virusToAdd > 0) {
         addVirus(virusToAdd);
     }
 }
